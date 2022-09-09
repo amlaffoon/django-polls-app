@@ -8,4 +8,23 @@ python -m venv venv
 ```powershell
 .\venv\Scripts\activate
 ```
-3. 
+3. install django
+
+```
+python -m pip install Django
+```
+
+4. pip freeze (dependency requirements)
+
+```
+python -m pip freeze > requirements.txt
+```
+
+5. create project
+```
+django-admin startproject [mysite]
+```
+6. start server
+```
+python manage.py runserver
+```
